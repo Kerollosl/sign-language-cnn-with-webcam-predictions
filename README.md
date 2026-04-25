@@ -1,9 +1,5 @@
 # Sign Language CNN with Webcam Predictions 🤟
 
-## Kerollos Lowandy
-
-**Repository:** [sign-language-cnn-with-webcam-predictions](https://github.com/Kerollosl/sign-language-cnn-with-webcam-predictions)
-
 ## 📋 Overview
 
 A Convolutional Neural Network (CNN) that recognizes American Sign Language (ASL) letters in real-time using webcam input. The project includes both a Python-based model and an HTML/JavaScript web interface for browser-based predictions.
@@ -136,16 +132,3 @@ The HTML version includes:
 - **Responsive UI:** Works on desktop and mobile
 - **No Server Required:** Fully client-side processing
 
-## 👤 Author
-
-**Kerollos Lowandy**
-- GitHub: [@Kerollosl](https://github.com/Kerollosl)
-- Email: klowandy@gmail.com
-
-## 📄 License
-
-This project is available for educational and research purposes.
-
----
-
-**Last Updated:** March 27, 2026
