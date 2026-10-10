@@ -63,17 +63,11 @@ def train_val_generators(training_images, training_labels, validation_images, va
                                        batch_size=32)
 
 
-  validation_datagen = ImageDataGenerator(rescale=1./255,
-                                     rotation_range=40,
-                                     width_shift_range=0.2,
-                                     height_shift_range=0.2,
-                                     shear_range=0.2,
-                                     zoom_range=0.2,
-                                     horizontal_flip=True,
-                                     fill_mode='nearest')
+  validation_datagen = ImageDataGenerator(rescale=1./255)
 
   validation_generator = validation_datagen.flow(x=validation_images,
                                                  y=validation_labels,
+                                                 shuffle=False,
                                                  batch_size=32)
 
   return train_generator, validation_generator
